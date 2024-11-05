@@ -34,3 +34,4 @@ Comming soon features:
 - api to upload image to a cloud bucket
 - api to update image
 - fetching library (TanStack Query)
+- zoom in / out

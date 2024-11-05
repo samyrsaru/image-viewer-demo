@@ -43,3 +43,13 @@ Run locally:
 > cd image-viewer\
 > npm install\
 > npm run dev
+
+### Other notes
+
+- life got pretty busy and some features got left behind
+- current implementation uses no global state management tool
+  - for the current state of the app, it didn't need one
+  - in a more advanced scenario, [zustand](https://github.com/pmndrs/zustand) is my number 1 choice
+- also the API call is made through `fetch` with state managed via useState
+  - it has no smart cache mechanism
+  - in a real world app I would use [tanstack query](https://tanstack.com/query/latest)
